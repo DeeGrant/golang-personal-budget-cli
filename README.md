@@ -9,6 +9,14 @@ Once setup, tests can be run with the following command:
 
 `go test -v ./module1/ ./module2/`
 
+## Running the app
+
+`go build -o budget` -> execute binary 'budget'
+
+OR
+
+`go run main.go`
+
 ### Running with Docker
 
 To build the image from the Dockerfile, run:
